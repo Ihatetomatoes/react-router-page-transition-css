@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+/* DEMO STYLES */
+.nav {
+  padding: 30px 0;
+  background-color: #222;
+}
+.nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin: 0 15px;
+  padding: 10px;
+  border: 1px rgba(255,255,255,0.5) solid;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: white;
+}
+.nav a.active {
+  background-color: #61DAFB;
+  color: #222;
+}
+section {
+  padding: 50px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.page {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+
+/* simple - enter transition 300ms, exit 150ms */
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
+}
+
+
+
+
+
+
+
+
+/* advanced - enter transition 800ms, exit 150ms */
+/* .fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+    transform: translateY(-10px);
+}
+.fade-appear p,
+.fade-enter p {
+  transform: translateY(-5px);
+  opacity: 0;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms linear 150ms, transform 300ms ease-out 150ms;
+}
+.fade-appear-active p,
+.fade-enter.fade-enter-active p {
+  transform: translateY(0);
+  opacity: 1;
+}
+.fade-appear-active p:nth-child(2),
+.fade-enter.fade-enter-active p:nth-child(2) {
+  transition: opacity 300ms linear 300ms, transform 300ms ease-out 300ms;
+}
+.fade-appear-active p:nth-child(3),
+.fade-enter.fade-enter-active p:nth-child(3) {
+  transition: opacity 300ms linear 400ms, transform 300ms ease-out 400ms;
+}
+.fade-appear-active p:nth-child(4),
+.fade-enter.fade-enter-active p:nth-child(4) {
+  transition: opacity 300ms linear 500ms, transform 300ms ease-out 500ms;
+}
+
+.fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 150ms linear, transform 150ms ease-in;
+} */
