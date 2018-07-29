@@ -3,7 +3,7 @@ Working files for my YouTube tutorial.
 
 ## Related Video
 
-[How to create page transitions with React Router](https://www.youtube.com/watch?v=NUQkajBdnmQ)
+[![How to create page transitions with React Router](v113-ReactRouterPageTransitionsCSS.jpg)](https://www.youtube.com/watch?v=NUQkajBdnmQ)
 
 ## How to use
 
